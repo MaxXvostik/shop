@@ -1,0 +1,408 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Lobster&family=Montserrat:wght@400;500;800&family=Oswald:wght@300&family=Roboto+Condensed&family=Yanone+Kaffeesatz:wght@200&display=swap');
+/*font-family: 'Montserrat', sans-serif;*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Lobster&family=Montserrat:wght@400;500;800&family=Oswald:wght@300&family=PT+Serif&family=Roboto+Condensed&family=Yanone+Kaffeesatz:wght@200&display=swap');
+/*font-family: 'PT Serif', serif;*/
+
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+body{
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+	color: #FFFFFF;
+}
+
+h1 , h2 , h3 , h4 , h5 , h6 {
+	margin: 0;
+}
+
+
+p {
+	margin: 0 0 10px;
+}
+
+/*-------------------------- 1_BOX -----------------------------*/
+
+/*--------- header --------*/
+
+.header{
+
+	padding: 41.5px 82px 0px 60px;
+
+	padding-top: 41.5px;
+	width: 100%;
+	position: absolute;
+	z-index: 1000;
+	top: 0;
+	left: 0;
+
+}
+
+.container{
+	width: 100%;
+	max-width: 1920px;
+	margin: 0 auto;
+}
+
+.header__inner{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.nav__link{
+	color:#FFFFFF;
+	font-family: 'Montserrat',sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 120%;
+	text-decoration: none;
+	margin-left: 66px;
+} 
+
+.nav__link:hover {
+	text-decoration: underline;	
+}
+
+.nav__link__batoom {
+    color: #000000;
+    background-color: #F9CA25;
+    padding: 30px 44px 30px 44px;
+    border-radius: 42px;
+    margin-left: 99px;
+    box-shadow: 0px 4px 14px 0px rgba(0, 0, 0, 0.35);
+
+}
+
+
+
+/*-------------------------- 2_BOX -----------------------------*/
+
+/*--------- intro --------*/
+
+.intro{
+	padding-top: 150px;
+	background: #1167B4FF url(images/logo_box_1.jpg);
+}
+
+.container__intro{
+	width: 100%;
+	max-width: 1380px;
+	margin: 0 auto;
+
+}
+
+.intro__title{
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 800;
+	font-size: 72px;
+	line-height: 120%;
+	padding-top: 60px;
+
+}
+
+.intro__subtitle{
+	font-family: 'PT Serif';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 170%;
+	margin-top: 36px;
+}
+
+.intro__ul{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	list-style-type: none;
+	padding: 0;
+	
+}
+
+.intro__ul > li {
+	padding-top: 119px;
+}
+
+.intro__a{
+	color: white;
+	text-decoration: none;
+
+}
+
+.intro__a:hover{
+	text-decoration: underline;
+}
+
+.intro__ul > li > a > img {
+	border-radius: 12px;
+	box-shadow: 0px 64px 44px -30px rgba(0, 0, 0, 0.65);
+	transition: transform 250ms;
+}
+
+.intro__ul > li > a > img:hover{
+	 transform: translateY(-10px);
+}
+
+.intro__p{
+	padding-top: 21px;
+	padding-bottom: 45px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 800;
+	font-size: 22px;
+	line-height: 120%;
+}
+
+
+
+/*-------------------------- 3_BOX -----------------------------*/
+
+/*--------- recipes --------*/
+
+
+.recipes{
+	background-color: white;
+}
+
+.container__recipes{
+	width: 100%;
+	max-width: 1700px;
+	margin: 0 auto;
+}
+
+.recipes__h2{
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 800;
+	font-size: 42px;
+	line-height: 120%;
+	color: #000000;
+	margin-top: 102px;
+	margin-bottom:45px ;
+}
+
+.recipes__ul{
+	display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+.recipes__li{
+	padding-bottom: 145px;
+}
+
+.recipes__a{
+	color: #000000;
+	text-decoration: none;
+}
+
+.recipes__a:hover{
+	text-decoration: underline;
+}
+
+.recipes__img{
+	transition: transform 250ms;
+}
+
+.recipes__img:hover{
+	transform: translateY(-10px);
+}
+
+.recipes__p{
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 22px;
+	line-height: 120%;
+	text-decoration: none;
+	padding-top: 17px;
+}
+
+.recipes__time__ul{
+	
+	padding: 0;
+
+
+	display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+
+}
+
+.recipes__time__li{
+	list-style-type: none;
+	padding-right: 37px;
+}
+
+.recipes__time__p{
+	color: #999999;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 120%;
+
+	display: flex;
+    align-items: center;
+}
+
+.recipes__time__img{
+	padding-right: 11px;
+}
+
+
+
+/*-------------------------- 4_BOX -----------------------------*/
+
+/*--------- footer --------*/
+
+
+footer{
+	background-color:  #F5F5F5;
+}
+
+.footer__box{
+	width: 100%;
+    max-width: 1810px;
+    margin: 0 auto;
+}
+
+.footer__container{
+    height: 616px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    padding-top: 141px;
+    border-bottom: 1px solid #999999;
+}
+
+.footer__p{
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 150%;
+	color: #999999;
+
+}
+
+.footer__recipe > p{
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 22px;
+	line-height: 120%;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	color: #000000;
+}
+
+.footer__recipe__ul{
+	padding: 0;
+}
+
+.footer__recipe__ul > li{
+	list-style-type: none;
+	margin: 0;
+
+}
+
+.footer__recipe__ul > li > a >p {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 120%;
+	color: #999999;
+	line-height: 40px;
+	text-decoration: none;
+
+}
+
+.footer__recipe__ul > li > a{
+	text-decoration: none;
+	color: #999999;
+}
+
+.footer__recipe__ul > li > a:hover{
+	text-decoration: underline;
+}
+
+.footer__column{
+	display: flex;
+	padding-right: 171px;
+}
+.footer__padding{
+	padding-right:228px ;
+}
+
+/*--------- contacts --------*/
+
+.contacts{
+	padding-top: 70px;
+}
+
+.contacts__p{
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 22px;
+	line-height: 120%;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	color: #000000;
+}
+
+.social__networks__ul{
+	display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0;
+
+}
+
+.social__networks__ul  > li{
+	list-style-type: none;
+	padding-right: 45px;
+}
+
+.menu__chef{
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 800;
+	font-size: 52px;
+	line-height: 120%;
+	letter-spacing: 0.03em;
+	color: #000000;
+}
+
+.contacts__box{
+	display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 90px;
+
+}
+
+.menu__chef{
+	display: flex;
+    justify-content: space-evenly;
+}
+
+.chef__padding{
+	padding-right: 83px;
+
+}
